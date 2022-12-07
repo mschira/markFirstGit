@@ -1,6 +1,6 @@
 Hello, this is my first markdown file for demo wiki
 `I can make funny text`
-I have a bunch of other files currently all I am using is markdown (md). 
+We could use many different files, such as html or even pdf and word document (I believe). Right now all I am using is markdown (md). 
 Not sure that is the best, but markdown seems pretty convenient.
 
 ## JOB TASK FOR EVERYONE: 
