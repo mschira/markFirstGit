@@ -1,5 +1,5 @@
-Hello, this is my first markdown file for demo wiki
-`I can make funny text`
+Hello, this is my first markdown file for demo wiki  
+`I can make funny text, this gray background is commonly used to mark text one should type into a command line`
 We could use many different files, such as html or even pdf and word document (~~I believe~~ I tested, see AnchorManuscript). What you see here is a simpple markdown (md). 
 Not sure that is the best, but markdown seems pretty convenient.
 
