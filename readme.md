@@ -15,6 +15,6 @@ vscode is a bit of a learning curve, maybe some basic git push pull and any text
 
 https://opensource.com/article/18/2/how-clone-modify-add-delete-git-files
 
-* first one to succceed with that gets a beer on Thursday!
+* first one to succceed with that gets a beer on Thursday!   
 * those who attended the Brainhack are probably massively advantaged but **DON'T give up before you try** I think this is something we should all be able to do to work on shared documentation!
 
