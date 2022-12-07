@@ -10,8 +10,8 @@ It's public so you can clone it to your local computer, using `git clone https:/
 *Jess make their first lab document and it's awesome.*   
 * If you want to do something simpler: make your OWN repsitory, if you do that, you can save yourself the pain of forking and merge request.
 
-To use git I suggest two basic ways: command line of VSCode.
-I personally find command line easier for some things, VSCode is sometimes not doing what I expect it to do, but I REALLY like the editor with the build in preview. It let's you see what your markdown file will look like.
+To use git I suggest two basic ways: command line or VSCode.
+I personally find command line easier for some things, VSCode is sometimes not doing what I expect it to do, but I REALLY like the editor with the build in preview. It let's you see what your markdown file will look like. Also very neat if you do a quick change to a text file, it needs three mouse clicks and it up in the repository. Neat.
 
 Here are basic videos about VSCode and Git:
 
