@@ -94,7 +94,7 @@ I.e. for a DWI scan the folder 201 could contain the raw images, and if there wa
 DWI DICOM data can be natively accessed using MRTRIX tools
 For example calling `mrinfo 301` when located in the subfolder `.../sub-01_ses-13_run-01` will output
 
-![](https://i.imgur.com/gfJRRmo.png)
+![](/IMG_HBA_04/gfJRRmo.png)
 
 Here one can find to `DEV0098` the subject id used on the scanner console, the name of the exam card `dti opt32 1000 avghighb SPIR 1.25iso 4bfactavg`
 the matrix size and some other parameters and most importantly the dw gradient orientations which MRtrix analysis including FSL eddy correction requires.
