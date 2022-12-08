@@ -19,6 +19,12 @@ Do the deconvolution (we want an FOD file i.e. fibre density distribution)
 A FOD file has about 46 volumes it can be inspected using `mrview` For visual inspection using ITKSnap but also aligment and such, extract the first volume of the FOD file  
 `mrconvert DWI_FOD.mif -coord 3 0 -axes 0,1,2 DWI_FOD_firstVol.nii.gz`
 
+The last step would be to extract the DEC from thiss FOD image.
+In principle that command is `fod2dec` but there are a few other things, such as having a T1.nii.gz ready and aligned. Also, while in principle you can make a decent DEC from a single DWI scan, we ultimately want to derive it from BOTH DWI scans. To do that we need calculate an FOD from each, align the two FODs and then average. 
+
+
+### difference between DEC and FAC 
+ Almost the same but sorta different.  FAC is derived from a tensor and DEC can be derived from anything, possebly a tensor, but here in this case from the FOD.
 
 
 
