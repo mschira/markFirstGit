@@ -60,13 +60,13 @@ Any queries can be sent to Zoey Isherwood (zoey.isherwood@gmail.com) or Mark Sch
 
 ## Things to be added by Mark Schira:
 
-| Sequence Name          |
-| ----------------- |
-| Processing DICOMS in MRTrix |
-| Making ID files  | 
-| Making Tensor Files  |
-| Overlaying final FAC file on T1 template | 
-| Nonlinear alignment using MRTrix | 
+| Column 1 | Column 2 |
+| -------- | -------- | 
+| Processing DICOMS in MRTrix     | done    |
+| Making ID files     | todo   |
+|  Making Tensor Files      | todo    |
+| Overlaying final FAC file on T1 template     | todo    |
+| Nonlinear alignment using MRTrix     | todo    |
 
 ## Importing Philips Dicom files into MRtrix mif 
 
