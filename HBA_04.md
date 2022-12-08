@@ -126,7 +126,7 @@ After the dwifslpreproc step it is typically a good idea to inspect the results,
 ```
 mrmath sub-01_ses-13_run-01_prepro.mif mean sub-01_ses-13_run-01_mean.nii.gz -axis 3 
 ```
-This image can then easily be inspected using ITKSnap or mrview, looking for distortions.![](https://i.imgur.com/gRnjknh.png)
+This image can then easily be inspected using ITKSnap or mrview, looking for distortions.![](/IMG_HBA_04/gRnjknh.png)
 
 
 
@@ -449,7 +449,7 @@ Files with the suffix `_WarpedToTemplate.nii.gz` are the output of each scan bei
 
 As noted above, the output template we're most interested in has the file name `T_template0.nii.gz`. See below for an example screenshot of this file:
 
-![](https://i.imgur.com/WtjBffA.png)
+![](/IMG_HBA_04/WtjBffA.png)
 
 ### Step 8. Applying warps/alignment parameters from Step 6 to other scans (`FAC_1`,`FAC_2`,`FAC_3`)
 
@@ -702,7 +702,7 @@ We now want to get our DWI data in Template space. To do this we will align our 
     
     When the GUI opens up, in the menu bar click `Tools` then `Registration`, then the `Manual` tab in the Registration toolbar.
     
-  ![](https://i.imgur.com/DFAzv4B.png)
+  ![](/IMG_HBA_04/DFAzv4B.png)
   
   
 Manually align until both images roughly match. I try to roughly align both images so that the ACPC line is aligned.
@@ -711,7 +711,7 @@ Now you can click the `Automatic` option in the Registration Toolbar. You can us
 
 Once the registration is complete, save the transformation matrix with the filename `ants-mvt-template_mean-rigid-16x8x.txt` in the `${DATA_PATH}/ants-mvt/mean` folder.
 
-![](https://i.imgur.com/paxyG8l.png)
+![](/IMG_HBA_04/paxyG8l.png)
 
 2. Now you're ready to start the ANTs non-linear alignment. Run the code block below to do this.
 
